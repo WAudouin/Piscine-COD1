@@ -1,0 +1,80 @@
+[
+	{
+		"category": "Design",
+		"maxPoints": 6,
+		"heroName": "L'artiste de renom",
+		"headliners": ["Lina"],
+		"first_part_desc": "<b>Le design</b>, c’est son terrain de jeu. Il maîtrise et retranscrit correctement chaque pixel de la maquette.",
+		"second_part_desc": "Virtuose des couleurs il ne se trompe jamais de code HEX, de spacing ou de border-radius ; <b>Figma n’a aucun secret pour ce Dev de talent.</b>",
+		"picture": "/design.png",
+		"icon": "/design.svg",
+		"lightColor": "#EBEDFF",
+		"midColor": "#9FA8FE",
+		"darkColor": "#8A92E3"
+	},
+	{
+		"category": "Code",
+		"maxPoints": 6,
+		"heroName": "Le bâtisseur de code",
+		"headliners": ["Chris"],
+		"first_part_desc": "Ses lignes de code sont des fondations solides. C’est un <b>maître du front</b>, capable de structurer les systèmes les plus complexes sans se casser la tête.",
+		"second_part_desc": "<b>Maitre de VSCode</b>, il a surement fini le challenge en s’assurant d’avoir le code le plus clair et le plus propre des 36 participants.",
+		"picture": "/code.png",
+		"icon": "/code.svg",
+		"lightColor": "#FFEDF5",
+		"midColor": "#F588B9",
+		"darkColor": "#D6699A"
+	},
+	{
+		"category": "Motion",
+		"maxPoints": 3,
+		"heroName": "Le maitre de la fluidité",
+		"headliners": ["Lina", "Chris"],
+		"first_part_desc": "Aucun composant ne s’affiche sans une animation soignée. Ses transitions sont légères, dynamiques et fluides, captivant l'utilisateur à chaque interaction.",
+		"second_part_desc": "Ce dev a l’oeil et maitrise le motion mieux que n’importe qui.",
+		"picture": "/motion.png",
+		"icon": "/motion.svg",
+		"lightColor": "#ECFFCE",
+		"midColor": "#A2B87E",
+		"darkColor": "#95AE6D"
+	},
+	{
+		"category": "Responsive",
+		"maxPoints": 2,
+		"heroName": "Le chercheur de breakpoint",
+		"headliners": ["Lina", "Chris"],
+		"first_part_desc": "Quelle que soit la taille de l’écran, il garantit une expérience utilisateur sans faille. Chaque site s’adapte à tous les supports, du mobile au grand écran.",
+		"second_part_desc": "Il fait attention à chaque breakpoint attentivement, on ne pourra pas le reprendre à l’inspection!",
+		"picture": "/responsive.png",
+		"icon": "/responsive.svg",
+		"lightColor": "#BADAFF",
+		"midColor": "#77A1D1",
+		"darkColor": "#6B93C0"
+	},
+	{
+		"category": "Easter egg",
+		"maxPoints": 3,
+		"heroName": "Le maitre des secrets",
+		"headliners": ["Lina", "Chris"],
+		"first_part_desc": "Derrière une ligne de code bien choisie se cache un secret bien gardé. Il glisse la surprise qui surprendra les utilisateurs les plus curieux.",
+		"second_part_desc": "Dev attentif aux comportements utilisateurs il saura cacher l’Easter Egg au meilleur endroit.",
+		"picture": "/easteregg.png",
+		"icon": "/easteregg.svg",
+		"lightColor": "#FFFAC2",
+		"midColor": "#CAC48E",
+		"darkColor": "#C2BB82"
+	},
+	{
+		"category": "Big boss",
+		"maxPoints": "Infinite",
+		"heroName": "Le sur-boosted",
+		"headliners": ["Lina", "Chris"],
+		"first_part_desc": "Il excelle dans tous les domaines, alliant design, propreté de code, réactivité, animations fluides et créativité cachée. Un vrai prodige qui a su briller dans chaque aspect du développement.",
+		"second_part_desc": "Ce dev aux multitalents a reçu la standing ovation du jury.",
+		"picture": "/bigboss.png",
+		"icon": "/bigboss.svg",
+		"lightColor": "#FFBCAB",
+		"midColor": "#F28164",
+		"darkColor": "#D46F55"
+	}
+]

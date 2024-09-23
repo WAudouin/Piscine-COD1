@@ -1,0 +1,43 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-VariableFont_opsz,wght"),
+    url("./assets/fonts/Inter-VariableFont_opsz,wght.ttf");
+}
+
+@media only screen and (max-device-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: $beige;
+  color: $black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}

@@ -1,0 +1,84 @@
+@import "../../variables.scss";
+
+@media only screen and (max-device-width: 768px) {
+  .hero-card .content {
+    flex-direction: column !important;
+  }
+
+  .hero-icon {
+    width: 15% !important;
+  }
+  .hero-picture,
+  .hero-description {
+    width: 100% !important;
+  }
+}
+
+.hero-card {
+  border-radius: 60px;
+  padding: calc($padding * 2);
+  width: 100%;
+  max-width: 1400px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 40px;
+    font: $small-semibold;
+
+    .category-and-points {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 150px;
+    }
+
+    .hero-name {
+      margin-left: 40px;
+      font: $small-bold;
+    }
+
+    .headliners {
+      margin-left: auto;
+      > *:not(:first-child) {
+        margin-left: calc($padding);
+      }
+    }
+  }
+
+  .content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .hero-picture {
+      width: 70%;
+      object-fit: contain;
+    }
+    .hero-description {
+      width: 20%;
+      text-align: start;
+    }
+  }
+
+  > img {
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+    right: 0;
+    z-index: 40;
+    transition: all 0.2s;
+
+    &:hover {
+      filter: saturate(4);
+      transition: all 0.2s;
+    }
+  }
+}

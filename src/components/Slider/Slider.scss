@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider {
+  white-space: nowrap;
+}
+
+.slider span {
+  display: flex;
+  gap: 2em;
+}
+
+.slider p {
+  font: $slider-text;
+}
+
+.RightToLeft {
+  animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

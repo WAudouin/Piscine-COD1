@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.headliner-badge {
+  color: $white;
+  padding: calc($padding/2.5) calc($padding/1.75);
+  width: fit-content;
+  border-radius: 1.54px 18.49px 18.49px 18.49px;
+  border: 2px solid;
+}

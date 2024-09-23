@@ -1,0 +1,140 @@
+@import "./variables.scss";
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: $padding calc($padding * 1.5);
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: $padding;
+  left: 0;
+  padding: 0 calc($padding * 1.5);
+  z-index: 20;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .percentage {
+    font: $small-bold;
+  }
+
+  .switch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 75px;
+    height: fit-content;
+    background-color: $black;
+    padding: 4px;
+    border-radius: 50px;
+
+    &.night {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: calc($padding * 10);
+
+  .caption {
+    position: relative;
+    font: $bigger-semibold;
+    text-align: center;
+
+    h2:last-of-type {
+      font-style: italic;
+    }
+
+    img {
+      position: absolute;
+      left: 3%;
+      bottom: 5%;
+    }
+  }
+}
+
+.heroes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: calc($padding * 2);
+
+  .final-frame {
+    border-radius: 60px;
+    padding: calc($padding * 4);
+    width: 100%;
+    max-width: 1400px;
+    height: 90vh;
+    background-color: $black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+
+    .subtitle {
+      font: $small-semibold;
+      color: $white;
+      margin-top: calc($padding * 6);
+    }
+
+    .big-caption {
+      font: $big-semibold;
+      color: $beige;
+      margin-top: calc($padding * 4);
+      word-spacing: 6rem;
+    }
+
+    .CTA {
+      width: 100%;
+      margin-top: auto;
+      display: flex;
+      justify-content: center;
+      > img {
+        width: 15%;
+      }
+    }
+
+    .caption-smiley {
+      width: 50px;
+      position: absolute;
+      bottom: 40%;
+      right: 20%;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  > :not(.logo) {
+    font: $small-bold;
+  }
+}
+
+.logo {
+  padding: calc($padding/2.5) calc($padding/1.75);
+  background-color: $black;
+  color: $purple-light;
+  border-radius: calc($padding * 4);
+  transform: rotate(8deg);
+  font-weight: 700;
+}
